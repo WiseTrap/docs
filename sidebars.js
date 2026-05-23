@@ -189,6 +189,7 @@ module.exports = {
                     label: 'Future Work',
                 },
             ],
-        }
+        },
+        'references',
     ],
 };
