@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Abstract
 
 With the continuous growth of cyber threats and the increasing need for effective monitoring and analysis of malicious activities, advanced cybersecurity solutions have become essential. This project presents **WiseTrap**, a modular Honeypot framework designed to simulate vulnerable web environments in order to attract attackers and collect threat intelligence within a controlled and secure infrastructure.
