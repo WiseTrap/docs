@@ -1,3 +1,6 @@
 module.exports = {
-    tutorialSidebar: ['intro'],
+    tutorialSidebar: [
+        'intro',
+        'acknowledgments',
+    ],
 };
