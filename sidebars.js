@@ -110,6 +110,49 @@ module.exports = {
                 'design-model/er-diagram',
                 'design-model/relational-model',
             ],
-        }
+        },
+        {
+            type: 'category',
+            label: 'Experiments and Results',
+            items: [
+                {
+                    type: 'doc',
+                    id: 'experiments-and-results/overview',
+                    label: 'Overview',
+                },
+
+                {
+                    type: 'category',
+                    label: 'Testing methodologies',
+                    items: [
+                        {
+                            type: 'doc',
+                            id: 'experiments-and-results/unit-testing-results',
+                            label: 'Unit Testing Results',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'experiments-and-results/integration-testing-results',
+                            label: 'Integration Testing Results',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'experiments-and-results/system-testing-results',
+                            label: 'System Testing Results',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'experiments-and-results/acceptance-system-results',
+                            label: 'Acceptance System Results',
+                        },
+                    ],
+                },
+                {
+                    type: 'doc',
+                    id: 'experiments-and-results/discussion-and-evaluation',
+                    label: 'Discussion and evaluation',
+                },
+            ],
+        },
     ],
 };
