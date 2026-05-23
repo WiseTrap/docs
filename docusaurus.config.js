@@ -10,6 +10,7 @@ module.exports = {
             {
                 docs: {
                     routeBasePath: '/',
+                    sidebarPath: require.resolve('./sidebars.js'),
                 },
                 blog: false,
             },

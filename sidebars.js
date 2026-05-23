@@ -1,5 +1,5 @@
 module.exports = {
-    tutorialSidebar: [
+    docs: [
         'intro',
         'acknowledgments',
     ],
