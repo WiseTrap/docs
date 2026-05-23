@@ -154,5 +154,41 @@ module.exports = {
                 },
             ],
         },
+        {
+            type: 'category',
+            label: 'Conclusion and Future Works',
+            items: [
+                {
+                    type: 'doc',
+                    id: 'conclusion-and-future-works/overview',
+                    label: 'Overview',
+                },
+                {
+                    type: 'doc',
+                    id: 'conclusion-and-future-works/discussion-and-evaluation',
+                    label: 'Summary about the project',
+                },
+                {
+                    type: 'doc',
+                    id: 'conclusion-and-future-works/achieved-objectives',
+                    label: 'Achieved objectives',
+                },
+                {
+                    type: 'doc',
+                    id: 'conclusion-and-future-works/main-contributions-of-the-work',
+                    label: 'Main contributions of the work',
+                },
+                {
+                    type: 'doc',
+                    id: 'conclusion-and-future-works/limitation',
+                    label: 'Limitation',
+                },
+                {
+                    type: 'doc',
+                    id: 'conclusion-and-future-works/future-work',
+                    label: 'Future Work',
+                },
+            ],
+        }
     ],
 };
