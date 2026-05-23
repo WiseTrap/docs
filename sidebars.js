@@ -3,7 +3,6 @@ module.exports = {
         'intro',
         'abstract',
         'acknowledgments',
-
         {
             type: 'category',
             label: 'Introduction',
@@ -53,6 +52,49 @@ module.exports = {
                     type: 'doc',
                     id: 'literature-review/summary',
                     label: 'Summary',
+                },
+            ],
+        },
+        {
+            type: 'category',
+            label: 'Methodology',
+            items: [
+                {
+                    type: 'doc',
+                    id: 'methodology/overview',
+                    label: 'Overview',
+                },
+
+                {
+                    type: 'category',
+                    label: 'Feasibility Study',
+                    items: [
+                        {
+                            type: 'doc',
+                            id: 'methodology/technical-feasibility-study',
+                            label: 'Technical Feasibility Study',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'methodology/operational-feasibility-study',
+                            label: 'Operational Feasibility Study',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'methodology/economic-feasibility-study',
+                            label: 'Economic Feasibility Study',
+                        },
+                    ],
+                },
+                {
+                    type: 'doc',
+                    id: 'methodology/methodology-process',
+                    label: 'Methodology Process',
+                },
+                {
+                    type: 'doc',
+                    id: 'methodology/requirements',
+                    label: 'Requirements',
                 },
             ],
         },
