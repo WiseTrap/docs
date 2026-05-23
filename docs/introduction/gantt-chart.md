@@ -14,6 +14,6 @@ The following Gantt chart illustrates the project schedule and sprint-based exec
 
 ## Project Timeline (Gantt Chart)
 
-![Gantt Chart](https://raw.githubusercontent.com/WiseTrap/honeypot/main/wiki/GanttChart.png)
+![Gantt Chart](https://raw.githubusercontent.com/WiseTrap/honeypot/refs/heads/main/Public/assets/img/GanttChart.png)
 
 Source: [WiseTrap Gantt Chart Wiki](https://github.com/WiseTrap/honeypot/wiki/GanttChart)

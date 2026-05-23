@@ -31,6 +31,6 @@ Scrum ensures continuous improvement through regular feedback and evaluation cyc
 
 ## Scrum Process Diagram
 
-![Scrum Diagram](https://raw.githubusercontent.com/WiseTrap/honeypot/main/wiki/ScrumDiagram.png)
+![Scrum Diagram](https://raw.githubusercontent.com/WiseTrap/honeypot/refs/heads/main/Public/assets/img/ScrumDiagram.png)
 
 Source: [WiseTrap Scrum Diagram Wiki](https://github.com/WiseTrap/honeypot/wiki/ScrumDiagram)
