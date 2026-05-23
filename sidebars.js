@@ -17,5 +17,44 @@ module.exports = {
                 'introduction/project-outline',
             ],
         },
+        {
+            type: 'category',
+            label: 'Literature Review',
+            items: [
+                {
+                    type: 'doc',
+                    id: 'literature-review/overview',
+                    label: 'Overview',
+                },
+
+                {
+                    type: 'category',
+                    label: 'Related Work',
+                    items: [
+                        {
+                            type: 'doc',
+                            id: 'literature-review/technologies',
+                            label: 'Technologies',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'literature-review/gap-analysis',
+                            label: 'Gap Analysis',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'literature-review/analysis',
+                            label: 'Analysis',
+                        },
+                    ],
+                },
+
+                {
+                    type: 'doc',
+                    id: 'literature-review/summary',
+                    label: 'Summary',
+                },
+            ],
+        },
     ],
 };
