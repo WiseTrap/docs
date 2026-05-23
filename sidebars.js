@@ -1,6 +1,8 @@
 module.exports = {
     tutorialSidebar: [
         'intro',
+        'abstract',
+        'acknowledgments',
 
         {
             type: 'category',
@@ -13,15 +15,6 @@ module.exports = {
                 'introduction/scope',
                 'introduction/gantt-chart',
                 'introduction/project-outline',
-            ],
-        },
-
-        {
-            type: 'category',
-            label: 'Project',
-            items: [
-                'acknowledgments',
-                'installation',
             ],
         },
     ],
