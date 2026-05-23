@@ -4,12 +4,14 @@ sidebar_position: 2
 
 # Problem Statement
 
-In today's cybersecurity landscape, defenders rely heavily on monitoring and detection tools to identify and analyze malicious activities.
+Modern cybersecurity environments require effective mechanisms for monitoring, analyzing, and understanding malicious activities targeting web applications.
 
-However, most existing platforms are designed around commercial objectives such as paid alerts and proprietary threat intelligence feeds, rather than open and community-driven security research.
+Although many security solutions exist, most traditional defensive systems focus primarily on attack prevention and detection rather than analyzing attacker behavior and exploitation techniques in controlled environments.
 
-As a result, valuable honeypot data is often fragmented across different sources such as social media posts, isolated logs, and unstructured reports. This makes it difficult to access, verify, or reuse meaningful attack information.
+In addition, many existing honeypot solutions are either limited in flexibility, difficult to customize, or heavily dependent on commercial security platforms and proprietary monitoring systems.
 
-Security professionals lack a centralized and trusted platform where honeypot data can be collected, structured, and analyzed efficiently.
+This creates challenges for cybersecurity researchers and defenders who require a structured and extensible framework for collecting attack data, monitoring intrusion attempts, and analyzing web-based threats.
 
-This limitation reduces the effectiveness of collaborative threat intelligence and slows down the ability to respond to evolving cyber threats.
+Furthermore, the lack of modular honeypot frameworks focused on web application vulnerabilities reduces the ability to simulate modern attack scenarios and study attacker interaction patterns effectively.
+
+Therefore, there is a need for a scalable and research-oriented honeypot framework capable of simulating vulnerable web environments, capturing malicious activities, and providing organized threat analysis features within a centralized management system.

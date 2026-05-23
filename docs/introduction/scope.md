@@ -4,12 +4,16 @@ sidebar_position: 5
 
 # Scope (Boundary)
 
-This project focuses on developing a community-based honeypot management platform that enables users to deploy honeypots, capture attack data, and analyze cybersecurity incidents in a structured environment.
+This project focuses on the development of a modular web-based honeypot framework designed to simulate vulnerable web environments and capture malicious activities within a controlled infrastructure.
 
-The system allows users to record attack sessions, payloads, severity levels, and geographical information related to attackers.
+The framework primarily targets common web application attack vectors, particularly **Information Disclosure** and **SQL Injection** vulnerabilities.
 
-It is designed for cybersecurity researchers, professionals, and defenders who aim to analyze attack patterns and share threat intelligence within a collaborative environment.
+WiseTrap enables the collection and analysis of attack-related data such as malicious requests, payloads, attacker interaction patterns, and intrusion attempts.
 
-The platform includes features such as categorized attack logs, visualization dashboards, and user-generated threat intelligence.
+The system also provides centralized logging, monitoring dashboards, attack reporting features, and structured threat analysis mechanisms intended to support cybersecurity research and defensive analysis.
 
-However, the system deliberately excludes commercial threat intelligence services, paid analytics tools, and vendor-specific monitoring solutions in order to maintain a research-focused and community-driven approach.
+The framework is designed for cybersecurity researchers, students, and security professionals interested in studying attacker behavior and web-based exploitation techniques.
+
+However, the project does not aim to replace enterprise-grade SIEM systems, commercial threat intelligence platforms, or large-scale network monitoring solutions.
+
+Instead, the primary focus of the framework is cybersecurity research, attack simulation, and honeypot-based threat monitoring within web application environments.

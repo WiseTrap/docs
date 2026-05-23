@@ -4,16 +4,20 @@ sidebar_position: 3
 
 # Project Objectives
 
-The main objective of this project is to design and implement a honeypot-based cybersecurity platform that enables users to deploy, monitor, and analyze attack activities in a controlled environment.
+The main objective of this project is to design and implement a modular web-based honeypot framework that enables the simulation, monitoring, and analysis of malicious activities targeting web applications.
 
-The system provides a structured framework for capturing real-world attack data and transforming it into actionable security intelligence.
+The framework aims to provide a structured environment for capturing attack data and improving cybersecurity research and threat analysis processes.
 
-## Sub-objectives:
+## Sub-objectives
 
-1. To analyze the limitations of existing intrusion detection and monitoring systems and identify the need for a proactive honeypot-based approach.
+1. To analyze the limitations of traditional monitoring and intrusion detection systems in understanding attacker behavior and web-based exploitation techniques.
 
-2. To develop a platform that allows users to deploy and manage honeypots while collecting structured attack data such as logs, payloads, and behavioral patterns.
+2. To develop a modular honeypot framework capable of simulating vulnerable web application environments and capturing malicious requests, payloads, and intrusion attempts.
 
-3. To implement interactive features including dashboards, user profiles, alerts, and categorized attack logs.
+3. To implement centralized logging, real-time monitoring dashboards, and structured attack reporting mechanisms.
 
-4. To evaluate the system’s effectiveness in providing reliable, organized, and research-oriented cybersecurity intelligence.
+4. To support the analysis of common web application vulnerabilities such as Information Disclosure and SQL Injection attacks.
+
+5. To design the framework with scalability and extensibility in mind, allowing future integration of additional vulnerability modules and attack simulation techniques.
+
+6. To evaluate the effectiveness of the framework in improving threat intelligence collection and supporting cybersecurity research activities.

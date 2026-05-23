@@ -4,22 +4,16 @@ sidebar_position: 6
 
 # Gantt Chart
 
-The following Gantt chart illustrates the overall project timeline for the WiseTrap Honeypot System.
+The project timeline for the WiseTrap Honeypot Framework was planned and managed using a Gantt chart to ensure proper scheduling and structured task distribution across the development phases.
 
-The project development process was organized into four consecutive Scrum sprints scheduled between late October and early December.
+The Gantt chart represents the overall project activities, including system design, implementation, testing, and evaluation. It provides a clear visualization of task durations, dependencies, and milestones throughout the project lifecycle.
 
-Each sprint included essential Agile development activities such as:
+The development process was organized into multiple Scrum sprints, each focusing on specific components such as honeypot modules, logging system, dashboard development, and system integration.
 
-- Sprint Planning
-- System Design and Development
-- Daily Scrum Meetings
-- Testing and Evaluation
-- Sprint Review and Retrospective
+The following Gantt chart illustrates the project schedule and sprint-based execution plan:
 
-The chart provides a visual representation of how these activities were distributed throughout the project lifecycle and demonstrates the iterative development approach followed during the implementation of the honeypot cybersecurity platform.
+## Project Timeline (Gantt Chart)
 
-## Project Timeline Diagram
+![Gantt Chart](https://raw.githubusercontent.com/WiseTrap/honeypot/main/wiki/GanttChart.png)
 
-![Gantt Chart](https://raw.githubusercontent.com/WiseTrap/honeypot/refs/heads/main/Public/assets/img/GanttChart.png)
-
-*Figure 1.6: Gantt chart illustrating the timeline and sprint-based development process of the WiseTrap Honeypot project.*
+Source: [WiseTrap Gantt Chart Wiki](https://github.com/WiseTrap/honeypot/wiki/GanttChart)
