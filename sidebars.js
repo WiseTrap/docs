@@ -98,5 +98,18 @@ module.exports = {
                 },
             ],
         },
+        {
+            type: 'category',
+            label: 'Design Model',
+            items: [
+                'design-model/overview',
+                'design-model/context-diagram',
+                'design-model/data-flow-diagram',
+                'design-model/use-case-diagram',
+                'design-model/flowchart-diagram',
+                'design-model/er-diagram',
+                'design-model/relational-model',
+            ],
+        }
     ],
 };
