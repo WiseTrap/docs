@@ -15,4 +15,4 @@ The context diagram simplifies the understanding of the overall system boundarie
 
 ![Context Diagram](https://raw.githubusercontent.com/WiseTrap/honeypot/refs/heads/main/Public/assets/img/ContextDiagram.png)
 
-Source: [WiseTrap Context Diagram Wiki](https://github.com/WiseTrap/honeypot/wiki/ContextDiagram
+Source: [WiseTrap Context Diagram Wiki](https://github.com/WiseTrap/honeypot/wiki/ContextDiagram)
