@@ -2,7 +2,7 @@ Introduction Section
 
 
 
-صورة 
+<img src="/img/HomePage.png" alt="home page" /><br />
 
 
 Landing Page
