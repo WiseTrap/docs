@@ -75,8 +75,8 @@ The system maintained stable performance during all testing scenarios without en
 
 > System testing results demonstrating the successful operation of the WiseTrap platform.
 
-<img src="/img/system-testing-results.jpeg" alt="system-testing-results" /><br />
-<img src="/img/system-testing-results22.jpeg" alt="system-testing-results2" /><br />
+<img src="/img/system-testing-results22.jpeg" alt="system-testing-results" /><br />
+<img src="/img/system-testing-results.jpeg" alt="system-testing-results2" /><br />
 
 ---
 
