@@ -1,6 +1,3 @@
-chapter six 
-
-This chapter concludes the project by summarizing the research outcomes and discussing future improvements, scalability opportunities, and potential enhancements for the WiseTrap framework.
 
 # Project Overview
 
