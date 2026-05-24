@@ -1,9 +1,21 @@
 ---
 slug: /
 ---
+
 # WISE Trap
 
 WiseTrap is a cybersecurity honeypot framework designed to detect, log, and analyze malicious activities in real-time. The system helps security researchers and developers understand attack patterns, improve system defenses, and build stronger protection strategies against cyber threats.
+
+---
+
+## Community Feedback
+
+We’d love to hear your thoughts about WiseTrap.
+Your feedback helps us improve the project, prioritize new features, and build a better cybersecurity research platform for everyone.
+
+[Take the Survey](https://forms.gle/6KZ9RymiL6DfqeP39)
+
+---
 
 This project is developed and maintained by our team under the organization [WiseTrap](https://github.com/WiseTrap).
 
