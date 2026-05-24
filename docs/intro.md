@@ -11,28 +11,28 @@ This project is developed and maintained by our team under the organization [Wis
 <tr>
 
 <td align="center" width="25%">
-<img src="https://honeypot.wisetrap.dev/assets/img/wisetrap.png" height="150" alt="Alaa Alshalan"><br />
+<img src="https://honeypot.wisetrap.dev/assets/img/wisetrap.png" height="150" alt="Alaa Alshalan" /><br />
 
 ### Alaa Alshalan
 **CyberSecurity**
 </td>
 
 <td align="center" width="25%">
-<img src="https://honeypot.wisetrap.dev/assets/img/wisetrap.png" height="150" alt="Aya AlSaifi"><br />
+<img src="https://honeypot.wisetrap.dev/assets/img/wisetrap.png" height="150" alt="Aya AlSaifi" /><br />
 
 ### Aya AlSaifi
 **Software Engineering**
 </td>
 
 <td align="center" width="25%">
-<img src="https://honeypot.wisetrap.dev/assets/img/wisetrap.png" height="150" alt="Hadeel Hushki"><br />
+<img src="https://honeypot.wisetrap.dev/assets/img/wisetrap.png" height="150" alt="Hadeel Hushki" /><br />
 
 ### Hadeel Hushki
 **Computer Science**
 </td>
 
 <td align="center" width="25%">
-<img src="https://honeypot.wisetrap.dev/assets/img/wisetrap.png" height="150" alt="Yasmeen AbuReesha"><br />
+<img src="https://honeypot.wisetrap.dev/assets/img/wisetrap.png" height="150" alt="Yasmeen AbuReesha" /><br />
 
 ### Yasmeen AbuReesha
 **Software Engineering**
