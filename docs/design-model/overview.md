@@ -12,7 +12,6 @@ Several design models were prepared to simplify system analysis and provide a cl
 These models include:
 
 - Context Diagram
-- Data Flow Diagram (DFD)
 - Use Case Diagram
 - Flowchart Diagram
 - Entity Relationship Diagram (ER Diagram)
