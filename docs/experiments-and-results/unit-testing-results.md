@@ -8,7 +8,7 @@ Attackers Detection Results
 
 This result shows the successful detection and logging of attackers. 
 
-صورة من الجدول 
+<img src="./img/attackers.png" height="150" alt="Aya AlSaifi" /><br />
 
 
 Dashboard Statistics Results
