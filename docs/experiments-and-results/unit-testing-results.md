@@ -1,20 +1,16 @@
-Acceptance Results Section
+## Acceptance Results Section
 
 
-Attackers Detection Results
+### Attackers Detection Results
 
+This result shows the successful detection and logging of attackers.
 
+<img src="/img/attackers.png" height="150" alt="Attackers Results" /><br />
 
+---
 
-This result shows the successful detection and logging of attackers. 
+### Dashboard Statistics Results
 
-<img src="./img/attackers.png" height="150" alt="Aya AlSaifi" /><br />
-
-
-Dashboard Statistics Results
-
-
-This dashboard summarizes attacker activity and system logs. 
-
+This dashboard summarizes attacker activity and system logs.
 
 صورة من لوحة التحكم 
