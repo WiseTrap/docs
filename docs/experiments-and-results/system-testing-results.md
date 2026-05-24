@@ -25,16 +25,16 @@ The primary objectives of system testing were:
 
 The following system features were tested during the system testing phase:
 
-| Feature | Test Description | Result |
-|---|---|---|
-| User Authentication | Verify secure login and logout functionality | Passed |
-| Dashboard Monitoring | Validate real-time monitoring and statistics display | Passed |
-| Trap Management | Ensure traps can be created and managed successfully | Passed |
-| Logging System | Verify attack logging and storage operations | Passed |
-| Session Management | Validate secure session handling | Passed |
-| Role-Based Access Control | Ensure users access authorized sections only | Passed |
-| Database Operations | Verify data retrieval and storage consistency | Passed |
-| Error Handling | Validate exception management and error reporting | Passed |
+| Feature                   | Test Description                                     | Result |
+|---------------------------|------------------------------------------------------|--------|
+| User Authentication       | Verify secure login and logout functionality         | Passed |
+| Dashboard Monitoring      | Validate real-time monitoring and statistics display | Passed |
+| Trap Management           | Ensure traps can be created and managed successfully | Passed |
+| Logging System            | Verify attack logging and storage operations         | Passed |
+| Session Management        | Validate secure session handling                     | Passed |
+| Role-Based Access Control | Ensure users access authorized sections only         | Passed |
+| Database Operations       | Verify data retrieval and storage consistency        | Passed |
+| Error Handling            | Validate exception management and error reporting    | Passed |
 
 ---
 
@@ -42,14 +42,14 @@ The following system features were tested during the system testing phase:
 
 The system testing process was performed using the following environment:
 
-| Item | Description |
-|---|---|
-| Programming Language | PHP |
-| System Architecture | Custom MVC Architecture |
-| Database System | MySQL |
-| Web Server | Apache Server |
-| Operating System | Linux VPS |
-| Frontend Technologies | HTML, CSS, JavaScript |
+| Item                  | Description             |
+|-----------------------|-------------------------|
+| Programming Language  | PHP                     |
+| System Architecture   | Custom MVC Architecture |
+| Database System       | MySQL                   |
+| Web Server            | Apache Server           |
+| Operating System      | Linux VPS               |
+| Frontend Technologies | HTML, CSS, JavaScript   |
 
 ---
 
@@ -75,6 +75,8 @@ The system maintained stable performance during all testing scenarios without en
 
 > System testing results demonstrating the successful operation of the WiseTrap platform.
 
+<img src="/img/system-testing-results.jpeg" alt="system-testing-results" /><br />
+<img src="/img/system-testing-results.jpeg" alt="system-testing-results2" /><br />
 
 ---
 
