@@ -2,90 +2,105 @@
 
 ## Overview
 
-Integration testing was conducted on the WiseTrap system to verify the interaction and communication between the different internal system components after completing the unit testing phase. The purpose of this testing process was to ensure that all modules operated together correctly within the same environment.
+Integration testing was conducted on the WiseTrap system to verify the interaction between the core system components, including authentication, session handling, trap endpoints, logging mechanisms, and database operations.
 
-The testing focused on validating communication between the web interface, authentication system, database layer, logging system, and monitoring dashboard.
-
----
-
-## Objectives of Integration Testing
-
-The main objectives of integration testing were:
-
-- Verify proper interaction between system modules.
-- Ensure successful database communication and synchronization.
-- Validate authentication and session management integration.
-- Confirm correct interaction between the logging system and dashboard.
-- Detect communication and data consistency issues.
-- Ensure stable operation of the complete backend workflow.
+The main focus of this phase was to ensure that the system modules work together seamlessly, especially the interaction between the user access flow and the Honeypot logging subsystem.
 
 ---
 
 ## Integrated Components
 
-The following component integrations were tested:
-
-| Integration Scenario                    | Test Description                                   | Result |
-|-----------------------------------------|----------------------------------------------------|--------|
-| Authentication Module → Session Manager | Verify secure session generation after login       | Passed |
-| Dashboard → Database Layer              | Validate retrieval and display of monitoring data  | Passed |
-| Logging System → Database               | Ensure attack logs are stored successfully         | Passed |
-| Trap Management → Database Models       | Verify trap configuration storage and retrieval    | Passed |
-| User Permissions → Dashboard Access     | Validate role-based access control                 | Passed |
-| Monitoring Dashboard → Logging Module   | Ensure attack logs are displayed correctly         | Passed |
-| Middleware → Request Processing         | Validate request filtering and processing workflow | Passed |
+| Component A | Component B | Purpose | Result |
+|------------|-------------|---------|--------|
+| Authentication System | Session Manager | Validate login flow and session creation | Passed |
+| Trap Endpoint Handler | Honeypot Logger | Capture and log attacker interactions | Passed |
+| Honeypot Logger | Database (Attackers + Logs) | Store attacker data and requests | Passed |
+| Dashboard | Database Layer | Display statistics and attack data | Passed |
+| Settings Module | Update System | Validate system update workflow | Passed |
 
 ---
 
-## Testing Environment
+## HoneypotLogger Integration Workflow
 
-The integration testing process was performed using the following environment:
-
-| Item                 | Description             |
-|----------------------|-------------------------|
-| Programming Language | PHP                     |
-| System Architecture  | Custom MVC Architecture |
-| Database System      | MySQL                   |
-| Web Server           | Apache Server           |
-| Operating System     | Linux VPS               |
-| Session Management   | PHP Secure Sessions     |
+1. Attacker accesses a trap endpoint.
+2. System identifies trap_endpoint_id.
+3. HoneypotLogger::log() is executed.
+4. IP, User Agent, Request data are collected.
+5. Attacker is inserted or updated in database.
+6. AttackLogs entry is created.
+7. Dashboard reflects updated data.
 
 ---
 
-## Integration Test Execution
+## Code Snippets
 
-During the integration testing phase, multiple operational scenarios were simulated to verify stable communication between the WiseTrap system components.
+### Attacker Lookup
+```php
+$stmt = $pdo->prepare("
+SELECT attacker_id 
+FROM Attackers 
+WHERE ip_address = ? 
+AND user_agent = ? 
+LIMIT 1
+");
+$stmt->execute([$ip, $userAgent]);
+$attacker = $stmt->fetch(PDO::FETCH_ASSOC);
+```
 
-The following operations were tested successfully:
+### Attacker Insert / Update
+```php
+if (!$attacker) {
+    $stmt = $pdo->prepare("
+        INSERT INTO Attackers (ip_address, user_agent, first_seen, last_seen)
+        VALUES (?, ?, NOW(), NOW())
+    ");
+    $stmt->execute([$ip, $userAgent]);
+} else {
+    $stmt = $pdo->prepare("
+        UPDATE Attackers 
+        SET last_seen = NOW() 
+        WHERE attacker_id = ?
+    ");
+    $stmt->execute([$attacker['attacker_id']]);
+}
+```
 
-- User authentication successfully initialized secure sessions.
-- Attack logs were correctly stored and retrieved from the database.
-- The dashboard displayed monitoring information and statistics accurately.
-- Middleware components processed incoming requests properly.
-- Trap configurations were stored and managed correctly.
-- User permissions were enforced successfully across protected sections.
-
-The testing process confirmed that all major system modules communicated reliably without causing synchronization failures or data inconsistencies.
+### Log Insert
+```php
+$stmt = $pdo->prepare("
+INSERT INTO AttackLogs (
+attacker_id,
+endpoint_id,
+requested_url,
+timestamp,
+http_method,
+status_code,
+request_data,
+response_data
+) VALUES (?, ?, ?, NOW(), ?, ?, ?, ?)
+");
+$stmt->execute([
+$attackerId,
+$endpointId,
+$requestUri,
+$method,
+http_response_code(),
+json_encode(['GET'=>$_GET,'POST'=>$_POST]),
+null
+]);
+```
 
 ---
 
-## Sample Integration Testing Output
+## Results Summary
 
-> Integration testing results demonstrating successful interaction between WiseTrap system modules.
-
-<img src="/img/Login.png" alt="login Page" /><br />
-
-
----
-
-## Observations
-
-The integration testing phase demonstrated stable interaction between the backend modules, database layer, authentication system, and dashboard interface.
-
-Minor issues related to database validation and session handling were identified during early testing stages and were corrected successfully before final deployment.
+- Logging triggered successfully
+- Attacker tracking works correctly
+- Database synchronization stable
+- Dashboard updates in real-time
 
 ---
 
 ## Conclusion
 
-The integration testing results confirmed that the WiseTrap system modules functioned together correctly within the integrated environment. The system maintained stable communication between internal components and successfully supported the overall operational workflow of the platform.
+Integration between WiseTrap modules and HoneypotLogger is stable and fully functional.
