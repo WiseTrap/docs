@@ -14,4 +14,4 @@ This result shows the successful detection and logging of attackers.
 
 This dashboard summarizes attacker activity and system logs.
 
-صورة من لوحة التحكم 
+<img src="/img/dashboard.png" alt="Dashboard Results" />
