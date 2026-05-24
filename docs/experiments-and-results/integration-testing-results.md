@@ -10,13 +10,13 @@ The main focus of this phase was to ensure that the system modules work together
 
 ## Integrated Components
 
-| Component A | Component B | Purpose | Result |
-|------------|-------------|---------|--------|
-| Authentication System | Session Manager | Validate login flow and session creation | Passed |
-| Trap Endpoint Handler | Honeypot Logger | Capture and log attacker interactions | Passed |
-| Honeypot Logger | Database (Attackers + Logs) | Store attacker data and requests | Passed |
-| Dashboard | Database Layer | Display statistics and attack data | Passed |
-| Settings Module | Update System | Validate system update workflow | Passed |
+| Component A           | Component B                 | Purpose                                  | Result |
+|-----------------------|-----------------------------|------------------------------------------|--------|
+| Authentication System | Session Manager             | Validate login flow and session creation | Passed |
+| Trap Endpoint Handler | Honeypot Logger             | Capture and log attacker interactions    | Passed |
+| Honeypot Logger       | Database (Attackers + Logs) | Store attacker data and requests         | Passed |
+| Dashboard             | Database Layer              | Display statistics and attack data       | Passed |
+| Settings Module       | Update System               | Validate system update workflow          | Passed |
 
 ---
 
