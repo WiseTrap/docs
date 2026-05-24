@@ -72,6 +72,8 @@ No critical issues were identified during the unit testing phase.
 
 > Unit testing execution results showing successful validation of WiseTrap core modules.
 
+<img src="/img/dashboard.png" alt="Attackers Results" /><br />
+
 <img src="/img/attackers.png" alt="Attackers Results" /><br />
 
 ---
