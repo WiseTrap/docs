@@ -73,7 +73,7 @@ The testing process confirmed that all major system modules communicated reliabl
 
 > Integration testing results demonstrating successful interaction between WiseTrap system modules.
 
-<img src="/img/login.png" alt="login Page" /><br />
+<img src="/img/Login.png" alt="login Page" /><br />
 
 
 ---
